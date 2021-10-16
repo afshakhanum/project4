@@ -102,19 +102,20 @@ input{
     color: hsl(0, 58%, 82%);
     font-size: 3rem;
     font-weight: 300;
-    padding-left: 80px;
-    padding-top: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
 }
 .head2{
     font-family: 'josefin sans','medium 500';
     font-size: 3rem;
-    padding-left: 80px;
+    padding-left: 50px;
 }
 p{
     font-family: 'josefin sans','regular 400';
     color:hsl(0, 50%, 81%) ;
     font-size: 1.5rem;
-    padding: 80px;
+    padding: 20px;
+    padding-left: 50px;
 }
 input{
     width: 400px;
@@ -125,8 +126,7 @@ input{
     font-family: 'josefin sans','thin 100';
     float: left;
     font-size: 1.2rem;
-    padding: 10px;
-    margin-left: 80px;
+    margin-left: 20px;
 }
 .b1{
     width: 80px;
