@@ -42,7 +42,7 @@ input{
     font-family: 'josefin sans','thin 100';
     float: left;
     padding: auto;
-    margin-left: 50px;
+    margin-left: 20px;
 
 }
 .b1{
@@ -64,7 +64,7 @@ input{
 .box3{
     display: none;
 }
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1000px) {
     body{
         width: 100%;
         height: 100%;
