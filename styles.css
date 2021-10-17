@@ -3,17 +3,23 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 
 .head1{
     font-family: 'josefin sans','extra=thin 100';
     color: hsl(0, 58%, 82%);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 300;
     text-align: center;
+    padding-top: 20px;
 }
 .head2{
     font-family: 'josefin sans','medium 500';
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -22,139 +28,170 @@ p{
     color:hsl(0, 19%, 59%) ;
     text-align: center;
     margin-bottom: 20px;
+    line-height: 20px;
+    padding: 30px;
 }
-
-.box1{
-    padding :20px;
-    height: 100%;
-    width: 100%;
-    font-size: 15px;
+.content{
     background-color:rgb(255, 247, 248);
-    padding: 40px;
 }
-
 input{
     width: 220px;
-    height: 30px;
+    height: 40px;
     border-radius: 50px;
-    border-color:hsl(0, 23%, 67%) ;
+    border: 1px solid hsl(0, 58%, 82%);
     color: hsl(0, 45%, 75%) ;
     font-family: 'josefin sans','thin 100';
-    float: left;
-    padding: auto;
-    margin-left: 20px;
+    padding-left: 20px;
+    margin: 30px 0 70px 80px;
+    max-width: 270px;
 
 }
 .b1{
     width: 50px;
-    height: 30px;
+    height: 40px;
     border-radius: 50px;
-    border-color:rgba(245, 155, 139,0.6) ;
-    padding: auto;
-    background: linear-gradient(rgb(247, 145, 145) ,rgb(223, 177, 177));
-    display: inline-block;
+    border: 1px solid hsl(0, 58%, 82%);
+    background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     color: white;
-    margin-left: -40px;
-    font-size: 10px;
+    padding: 10px 20px;
+    margin-left: -45px;
+    margin-top: 10px;
+}
+.mobile-logo{
+    padding: 30px;
+    background-color: rgb(255, 247, 248);
+}
+.desktop-img{
+    display: none;
+}
 
-}
-.box2{
+.desktop-logo{
     display: none;
 }
-.box3{
-    display: none;
+@media screen and (min-width:600px){
+    .head1{
+        font-family: 'josefin sans','extra=thin 100';
+        color: hsl(0, 58%, 82%);
+        font-size: 2.5rem;
+        font-weight: 300;
+        text-align: center;
+    }
+    .head2{
+        font-family: 'josefin sans','medium 500';
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    p{
+        font-family: 'josefin sans','regular 400';
+        color:hsl(0, 19%, 59%) ;
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 30px;
+    }
+    input{
+        width: 400px;
+        height: 50px;
+        border-radius: 50px;
+        border: 1px solid hsl(0, 58%, 82%);
+        color: hsl(0, 45%, 75%) ;
+        font-family: 'josefin sans','thin 100';
+        padding: 10px,20px;
+        margin-left: 250px;
+    
+    }
+    .b1{
+        width: 70px;
+        height: 50px;
+        border-radius: 50px;
+        border: 1px solid hsl(0, 58%, 82%);
+        background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+        color: white;
+        padding: 10px 20px;
+        margin-left: -45px;
+        margin-top: 10px;
+    }
+    
 }
 @media screen and (min-width:1000px) {
-    body{
-        width: 100%;
-        height: 100%;
+    .mobile-logo{
+        display: none;
     }
-.box4{
-    display: none;
-    }  
-
-.box1{
-    display: none;
-}  
-.img1{
-    display: none;
-}
-.box2{
-        position: relative;
-        height: 100%;
-        display: inline;
-        float: left;
+    .mobile-img{
+        display: none;
     }
-        
-.box5{
-       position: absolute;
-       top: 40px;
-       left: 10px;
-       bottom: 10px;
-       right: 10px;
-       height: 100%;
-       width: 50%;
-       display: inline-block;
-       padding: 20px;
+    .desktop-img{
+        display: block;
+        width: 50vw;
+        height: 100vh;
     }
-
-.box3{
-    display: inline;
-    width: 50%;
-    height: 100%;
-}
-.head1{
-    font-family: 'josefin sans','extra=thin 100';
-    color: hsl(0, 58%, 82%);
-    font-size: 3rem;
-    font-weight: 300;
-    padding-left: 50px;
-    padding-top: 40px;
-    text-align: start;
-}
-.head2{
-    font-family: 'josefin sans','medium 500';
-    font-size: 3rem;
-    padding-left: 50px;
-    text-align: start;
-}
-p{
-    font-family: 'josefin sans','regular 400';
-    color:hsl(0, 50%, 81%) ;
-    font-size: 1.5rem;
-    padding: 20px;
-    padding-left: 50px;
-    width: 100%;
-    text-align: start;
-}
-input{
-    width: 300px;
-    height: 50px;
-    border-radius: 80px;
-    border-color:hsl(0, 100%, 93%) ;
-    color: hsl(0, 60%, 86%) ;
-    font-family: 'josefin sans','thin 100';
-    float: left;
-    font-size: 1.2rem;
-    margin-left: 40px;
-    margin-top: 20px;
-    padding: 20px;
-}
-.b1{
-    width: 80px;
-    height: 50px;
-    border-radius: 50px;
-    border-color:rgba(245, 155, 139,0.6) ;
-    padding: auto;
-    background: linear-gradient(rgb(247, 243, 243) ,rgb(245, 184, 184));
-    display: inline-block;
-    color: white;
-    margin-left: -50px;
-    font-size: 2rem;
-    margin-top: 20px;
-
-}
-.box6{
-    margin-left: 50px;
-}
+    .desktop-logo{
+        display: block;
+        margin-top: 40px;
+        padding-left: 100px;
+    }
+    .parent{
+        display: flex; 
+        flex-direction: row;
+        width: 100vw;  
+    }
+    .content{
+        background-image: url(imges/IMG-20211003-WA0024.jpg);
+        width: 50vw;
+        height: 100vh;
+    }
+    .desktop-img{
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        width: 50%;
+        height: 100vh;
+    }
+    .head1{
+        font-family: 'josefin sans','extra=thin 100';
+        color: hsl(0, 58%, 82%);
+        font-size: 3rem;
+        font-weight: 300;
+        text-align: left;
+        padding-left: 100px;
+        margin-top: 30px;
+    }
+    .head2{
+        font-family: 'josefin sans','medium 500';
+        font-size: 3rem;
+        text-align: left;
+        padding-left: 100px;
+    }
+    p{
+        font-family: 'josefin sans','regular 400';
+        color:hsl(0, 36%, 70%) ;
+        text-align: left;
+        font-size: 1rem;
+        line-height: 30px;
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 600px;
+    }
+    input{
+        width: 500px;
+        height: 50px;
+        border-radius: 50px;
+        border: 1px solid hsl(0, 58%, 82%);
+        color: hsl(0, 45%, 75%) ;
+        font-family: 'josefin sans','thin 100';
+        padding: 10px,20px;
+        margin-left: 100px;
+    
+    }
+    .b1{
+        width: 70px;
+        height: 50px;
+        border-radius: 50px;
+        border: 1px solid hsl(0, 58%, 82%);
+        background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+        color: white;
+        padding: 10px 20px;
+        margin-left: -45px;
+        margin-top: 10px;
+    }
 }
