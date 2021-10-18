@@ -51,7 +51,7 @@ input{
 
 }
 .b1{
-    width: 50px;
+    width: 60px;
     height: 40px;
     border-radius: 50px;
     border: 1px solid hsl(0, 58%, 82%);
@@ -60,6 +60,7 @@ input{
     /* padding: 10px 20px; */
     margin-left: -65px;
     margin-top: 10px;
+    font-size: 20px;
 }
 .mobile-logo{
     padding-top: 20px;
@@ -168,8 +169,6 @@ input{
         font-family: 'josefin sans','thin 100';
         padding: 10px,20px;
         margin-left: 100px;
-        margin-bottom: 160px;
-    
     }
     .b1{
         width: 70px;
@@ -186,8 +185,8 @@ input{
          display: flex;
      }
      .content{
-         width: 60%;
-         height: 150%;
+         width: 70%;
+         height: 100%;
          background-image: url(imges/IMG-20211003-WA0024.jpg);
          padding: 50px;
      }
