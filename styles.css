@@ -150,7 +150,7 @@ input{
  .content{
       flex: 63%;
       /* width: 80vw; */
-      height: 100%;
+      height: 100vh;
       background-image: url(imges/IMG-20211003-WA0024.jpg);
   }
   .mobile-logo{
