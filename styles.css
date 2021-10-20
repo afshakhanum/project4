@@ -133,14 +133,15 @@ input{
 }
 @media screen and (min-width: 1000px) {
  .flex-wrap{
+        flex: 100%;
+        height: 100vh;
         display: flex;
         flex-flow: row;
         flex-wrap: wrap;
   }  
  .desktop-img{
       flex: 37%;
-      /* width: 60vw; */
-      height: 100%;
+      height: 100vh;
       display:inline-block;
       object-fit: cover;
       padding: 0%;
@@ -149,7 +150,6 @@ input{
   }  
  .content{
       flex: 63%;
-      /* width: 80vw; */
       height: 100vh;
       background-image: url(imges/IMG-20211003-WA0024.jpg);
   }
