@@ -35,8 +35,7 @@ input{
     font-family: 'josefin sans','thin 100';
     padding-left: 20px;
     max-width: 270px;
-    margin-top: 10px;
-    margin-left: 40px;
+    margin: 30px 0 70px 50px;
     background-color: rgb(255, 247, 248);
 }
 .b1{
@@ -69,11 +68,149 @@ input{
 }
 .mobile-img{
     flex: 100%;
-    height: 40vh;
+    height: 40%;
     background-color: rgb(255, 247, 248);
 }
 .content{
     flex: 100%;
-    height: 60vh;
+    height: 60%;
     background-color:rgb(255, 247, 248);
+}
+@media screen and (min-width :600px) {
+    .flex-wrap{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .mobile-logo{
+        flex: 10%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(255, 247, 248);
+    }
+    .mobile-img{
+        flex: 100%;
+        height: 30%;
+        background-color: rgb(255, 247, 248);
+    }
+    .content{
+        flex: 100%;
+        height: 60%;
+        background-color:rgb(255, 247, 248);
+    }  
+    input{
+        width: 300px;
+        height: 40px;
+        color: hsl(0, 58%, 82%);
+        border-radius: 50px;
+        border: 1px solid hsl(0, 58%, 82%);
+        font-family: 'josefin sans','thin 100';
+        padding-left: 20px;
+        max-width: 350px;
+        margin-top: 10px;
+        margin-left: 250px;
+        background-color: rgb(255, 247, 248);
+       text-align: left;
+    }
+    .b1{
+        width: 60px;
+        height: 40px;
+        border-radius: 50px;
+        border: 1px solid hsl(0, 58%, 82%);
+        background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+        color: white;
+        margin-left: -45px;
+        margin-top: 20px;
+    }
+    p{
+        font-family: 'josefin sans','light 300';
+        color:hsl(0, 19%, 59%) ;
+        font-size: 15px;
+        text-align: center;
+        line-height: 20px;
+        padding: 30px 70px 30px 70px;
+    }
+}
+@media screen and (min-width: 1000px) {
+ .flex-wrap{
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+  }  
+ .desktop-img{
+      flex: 37%;
+      /* width: 60vw; */
+      height: 100%;
+      display:inline-block;
+      object-fit: cover;
+      padding: 0%;
+      margin: 0%;
+      max-width: 50%;
+  }  
+ .content{
+      flex: 63%;
+      /* width: 80vw; */
+      height: 100%;
+      background-image: url(imges/IMG-20211003-WA0024.jpg);
+  }
+  .mobile-logo{
+        display: none;
+}
+  .mobile-img{
+      display: none;
+}
+  .desktop-logo{
+    display: inline;
+    padding: 60px;
+}
+.head1{
+    font-family: 'josefin sans','extra=light 200';
+    color: hsl(0, 33%, 77%);
+    font-size: 2rem;
+    font-weight: 300;
+    padding-left: 60px;
+    padding-top: 20px;
+    text-align: left;
+}
+.head2{
+    font-family: 'josefin sans','regular 400';
+    font-size: 2rem;
+    padding-left: 60px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+p{
+    font-family: 'josefin sans';
+    color:hsl(0, 19%, 59%) ;
+    font-size: 20px;
+    padding-left: 60px;
+    width: 600px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    text-align: justify;
+} 
+input{
+    width: 300px;
+    height: 40px;
+    color: hsl(0, 58%, 82%);
+    border-radius: 50px;
+    border: 1px solid hsl(0, 58%, 82%);
+    font-family: 'josefin sans','thin 100';
+    padding-left: 20px;
+    max-width: 350px;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-color: rgb(255, 247, 248);
+    text-align: left;
+}
+.b1{
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 58%, 82%);
+    background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    color: white;
+    margin-left: -45px;
+    margin-top: 20px;
+} 
 }
