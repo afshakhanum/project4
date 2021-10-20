@@ -48,10 +48,6 @@ input{
     margin-left: -45px;
     margin-top: 20px;
 }
-.desktop-img{
-    display: none;
-}
-
 .desktop-logo{
     display: none;
 }
@@ -133,25 +129,26 @@ input{
 }
 @media screen and (min-width: 1000px) {
  .flex-wrap{
-        flex: 100%;
-        height: 100vh;
         display: flex;
-        flex-flow: row;
-        flex-wrap: wrap;
   }  
  .desktop-img{
-      flex: 37%;
+     flex: 40%;
       height: 100vh;
-      display:inline-block;
+      background-image: url(imges/IMG-20211003-WA0026.jpg);
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-size: cover;
       object-fit: cover;
       padding: 0%;
       margin: 0%;
       max-width: 50%;
   }  
  .content{
-      flex: 63%;
+     flex: 60%;
       height: 100vh;
       background-image: url(imges/IMG-20211003-WA0024.jpg);
+      margin: 0%;
+      padding: 0px;
   }
   .mobile-logo{
         display: none;
